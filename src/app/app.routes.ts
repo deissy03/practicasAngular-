@@ -20,8 +20,8 @@ export const routes: Routes = [
     {path:"registros", component:RegistrosComponent},
     {path:"iniciar sesion", component:IniciarSesionComponent},
     {path:"privado", component:PrivadoComponent},
-    {path:"**", component:NoEncontradoComponent, title:"404"},
-    {path:"",redirectTo:"inicio", pathMatch:"full" }, 
+    {path:"**", component:NoEncontradoComponent, title:"404"},//"**" significa otra ruta que no existe indica no encontrado
+    {path:"",redirectTo:"inicio", pathMatch:"full" }, //""  string vacio  hace referencia a la ruta de raiz se debe agregar la propiedad pathMatch:"full"
 
 ];
 
