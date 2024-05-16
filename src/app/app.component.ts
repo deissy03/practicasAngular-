@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule } from '@angular/common'; // este hay que ctrearlo por que no lo trae 
 import { RouterOutlet } from '@angular/router';
 import {NavegacionComponent}from "./components/navegacion/navegacion.component";
 import {InicioComponent}from "./components/inicio/inicio.component"
@@ -23,3 +23,4 @@ import {NoEncontradoComponent}from "./components/no-encontrado/no-encontrado.com
 export class AppComponent {
 
 }
+// en app.componnet.ts se importa lo que vamos creando desde la primera carpeta que en este caso fue navegacion luego todo lo que lleva la navegación  ojo y se debe importar tambien en la palabra imports lo que se importo arriba
