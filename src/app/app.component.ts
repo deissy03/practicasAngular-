@@ -16,7 +16,7 @@ import {NoEncontradoComponent}from "./components/no-encontrado/no-encontrado.com
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet,CommonModule,NavegacionComponent,InicioComponent,ContactosComponent,ProductosComponent,NosotrosComponent,ServiciosComponent,
-    RegistrosComponent,IniciarSesionComponent,PrivadoComponent,NoEncontradoComponent],
+    RegistrosComponent,IniciarSesionComponent,PrivadoComponent,NoEncontradoComponent],// aqui tambien se importa
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
